@@ -2,7 +2,6 @@ name: Build
 on: [push]
 jobs:
   release:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-checkout@v3
