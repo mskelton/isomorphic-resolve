@@ -1,21 +1,27 @@
-# npm-template
+# isomorphic-resolve
 
-[![Build status](https://github.com/mskelton/npm-template/workflows/Build/badge.svg)](https://github.com/mskelton/npm-template/actions)
+[![Build status](https://github.com/mskelton/isomorphic-resolve/workflows/Build/badge.svg)](https://github.com/mskelton/isomorphic-resolve/actions)
+
+Isomorphic `require.resolve` for ESM and CommonJS
 
 ## Installation
 
 ### npm
 
-```sh
-npm install npm-template
+```bash
+npm install isomorphic-resolve
 ```
 
 ### Yarn
 
-```sh
-yarn add npm-template
+```bash
+yarn add isomorphic-resolve
 ```
 
 ## Usage
 
-// TODO
+```javascript
+import resolve from "isomorphic-resolve"
+
+resolve("...")
+```

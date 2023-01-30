@@ -1,16 +1,14 @@
 name: Build
 on: [push]
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: mskelton/setup-yarn@v1
-      - run: yarn test
   release:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: mskelton/setup-yarn@v1
+      - uses: actions/setup-checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Release
         run: yarn semantic-release
         env:
