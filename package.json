@@ -1,7 +1,7 @@
 {
   "name": "isomorphic-resolve",
   "description": "Isomorphic `require.resolve` for ESM and CommonJS.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Mark Skelton",
   "repository": "github:mskelton/isomorphic-resolve",
   "bugs": {
