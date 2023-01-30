@@ -1,7 +1,5 @@
 # isomorphic-resolve
 
-[![Build status](https://github.com/mskelton/isomorphic-resolve/workflows/Build/badge.svg)](https://github.com/mskelton/isomorphic-resolve/actions)
-
 Isomorphic `require.resolve` for ESM and CommonJS
 
 ## Installation
